@@ -1,0 +1,36 @@
+# Виртуальные окружения Python
+venv/
+.venv/
+env/
+.env/
+*.env
+
+# Кэш и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы IDE/редакторов
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Лог-файлы и выходные данные
+*.log
+*.csv
+
+# Дистрибутивы и сборки
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Файлы настроек ОС/инструментов
+.pytest_cache/
+.mypy_cache/
+.coverage
